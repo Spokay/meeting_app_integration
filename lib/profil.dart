@@ -46,7 +46,7 @@ class _ProfilComponentState extends State<ProfilComponent> {
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
-                              const SizedBox(width: 70),
+                              const SizedBox(width: 80),
                               const Stack(
                                   children: <Widget>[
                                     // fill the text with a background image
@@ -54,29 +54,28 @@ class _ProfilComponentState extends State<ProfilComponent> {
                                   ]
                               ),
                               SizedBox(
-                                width: 70,
+                                width: 80,
                                 child: Row(
                                     children: [
-                                      Container(
-                                        decoration: BoxDecoration(
-                                          border: Border.all(
+                                      IconButton(onPressed: (){}, icon: RotatedBox(
+                                        quarterTurns: 1,
+                                        child: Icon(
+                                            Icons.tune_rounded,
                                             color: colorBlue,
-                                            width: 2,
+                                          size: 30,
                                           ),
-                                          borderRadius: BorderRadius.circular(50),
-                                        ),
-                                        margin: const EdgeInsets.only(right: 10),
-                                        child: RotatedBox(
-                                            quarterTurns: 1,
-                                            child: Icon(
-                                              Icons.tune_rounded,
-                                              color: colorBlue,
-                                            )
-                                        ),
+                                      ),
+                                        style: IconButton.styleFrom(
+                                          padding: const EdgeInsets.all(0),
+                                          shape: RoundedRectangleBorder(
+                                              borderRadius: BorderRadius.circular(50),
+                                            side: BorderSide(color: colorBlue, width: 2)
+                                          )
+                                        )
                                       ),
                                       Icon(
                                           Icons.settings,
-                                          color: colorBlue
+                                          color: colorBlue,
                                       ),
                                     ]
                                 ),
