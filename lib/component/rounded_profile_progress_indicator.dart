@@ -84,7 +84,7 @@ class _RoundedProfileProgressIndicatorState extends State<RoundedProfileProgress
                 fit: StackFit.expand,
                 children: [
                   ElevatedButton(
-                  style: ButtonStyle(
+                    style: ButtonStyle(
                     padding: MaterialStateProperty.all<EdgeInsetsGeometry>(const EdgeInsets.all(0)),
                       alignment: Alignment.center,
                       backgroundColor: MaterialStateProperty.all<Color>(Colors.white),

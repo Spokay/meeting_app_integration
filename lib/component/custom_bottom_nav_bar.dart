@@ -17,7 +17,7 @@ class _CustomBottomNavBarState extends State<CustomBottomNavBar> {
       backgroundColor: Colors.white,
       selectedItemColor: Colors.white,
       unselectedItemColor: Colors.white,
-      iconSize: 40,
+      iconSize: 35,
       elevation: 10,
       showSelectedLabels: false,
       showUnselectedLabels: false,
@@ -40,8 +40,8 @@ class _CustomBottomNavBarState extends State<CustomBottomNavBar> {
         ),
         BottomNavigationBarItem(
           icon: Container(
-            width: 40,
-            height: 40,
+            width: 35,
+            height: 35,
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(50),
               image: const DecorationImage(

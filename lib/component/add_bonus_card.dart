@@ -29,8 +29,8 @@ class AddBonusCard extends StatelessWidget {
           ),
         ],
       ),
-      width: 120,
-      height: 120,
+      width: 115,
+      height: 115,
       child: Stack(
           children: [
             Padding(

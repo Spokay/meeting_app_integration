@@ -25,11 +25,11 @@ class PremiumCard extends StatelessWidget {
             ],
           ),
           const SizedBox(
-            height: 10,
+            height: 5,
           ),
           const Text("Débloquez toutes nos options pour prendre le contrôle", style: TextStyle(fontFamily: 'M PLUS Rounded 1c',color: Colors.white, fontSize: 12),textAlign: TextAlign.center,),
           const SizedBox(
-            height: 10,
+            height: 5,
           ),
           FilledButton(
             style: ButtonStyle(

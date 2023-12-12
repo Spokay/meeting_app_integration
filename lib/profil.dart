@@ -37,7 +37,7 @@ class _ProfilComponentState extends State<ProfilComponent> {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   SizedBox(
-                    height: bodyHeight * 0.6,
+                    height: bodyHeight * 0.65,
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.spaceAround,
                       children: [
@@ -132,13 +132,13 @@ class _ProfilComponentState extends State<ProfilComponent> {
                   ),
 
                   Container(
-                    height: bodyHeight * 0.4,
+                    height: bodyHeight * 0.35,
                     padding: const EdgeInsets.all(10),
                     decoration: const BoxDecoration(
                         color: Color.fromRGBO(244, 244, 244, 1)
                     ),
                     child: Column(
-                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Row(
                           mainAxisAlignment: MainAxisAlignment.center,
